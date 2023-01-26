@@ -1,0 +1,65 @@
+pysowurrd
+
+upper_case = Y{Zw(xU!Vs@tQ#Ro$pM%Nk^lI&Jg*hE?Fc)dA}Ba[bC<De?fG*Hi&jK^Lm%nO$Pq#rS@Tu!vW>Xy]z
+
+lower_case = a[bC<De?fG*Hi&jK^Lm%nO$Pq#rS@Tu!vW>Xy]zY{Zw(xU!Vs@tQ#Ro$pM%Nk^lI&Jg*hE?Fc)dA}B
+
+digits = 210?1*2*3&4^5%6$7#8@9!098
+
+symbols = 210!1@2#3$4%5^6&7*8(9)?098
+
+upper_case_list = ['Y', '{', 'Z', 'w', '(', 'x', 'U', '!', 'V', 's', '@', 't', 'Q', '#', 'R', 'o', '$', 'p', 'M', '%', 'N', 'k', '^', 'l', 'I', '&', 'J', 'g', '*', 'h', 'E', '?', 'F', 'c', ')', 'd', 'A', '}', 'B', 'a', '[', 'b', 'C', '<', 'D', 'e', '?', 'f', 'G', '*', 'H', 'i', '&', 'j', 'K', '^', 'L', 'm', '%', 'n', 'O', '$', 'P', 'q', '#', 'r', 'S', '@', 'T', 'u', '!', 'v', 'W', '>', 'X', 'y', ']', 'z']
+
+
+lower_case_list = ['a', '[', 'b', 'C', '<', 'D', 'e', '?', 'f', 'G', '*', 'H', 'i', '&', 'j', 'K', '^', 'L', 'm', '%', 'n', 'O', '$', 'P', 'q', '#', 'r', 'S', '@', 'T', 'u', '!', 'v', 'W', '>', 'X', 'y', ']', 'z', 'Y', '{', 'Z', 'w', '(', 'x', 'U', '!', 'V', 's', '@', 't', 'Q', '#', 'R', 'o', '$', 'p', 'M', '%', 'N', 'k', '^', 'l', 'I', '&', 'J', 'g', '*', 'h', 'E', '?', 'F', 'c', ')', 'd', 'A', '}', 'B']
+
+digits_list = ['2', '1', '0', '?', '1', '*', '2', '*', '3', '&', '4', '^', '5', '%', '6', '$', '7', '#', '8', '@', '9', '!', '0', '9', '8']
+
+symbols_list = ['2', '1', '0', '!', '1', '@', '2', '#', '3', '$', '4', '%', '5', '^', '6', '&', '7', '*', '8', '(', '9', ')', '?', '0', '9', '8']
+
+ab CD ef GH ij KL mn OP qr ST uv WX yz
+YZ wx UV st QR op MN kl IJ gh EF cd AB
+AB cd EF gh IJ kl MN op QR st UV wx YZ
+yz WX uv ST qr OP mn KL ij GH ef DC ab
+
+{(!@#$%^&*?)}
+[<?*&^%$#@!>]
+
+
+
+
+
+
+
+
+
+lower = abcdefghijklmnopqrstuvwxyz
+upper = ABCDEFGHIJKLMNOPQRSTUVWXYZ
+digits = 0123456789
+symbols = !@#$%&*?
+
+
+
+
+odd = 2 3 5 7 11 13 17 19 23 29 31 37 47 53 59 61 67 71 73 79 83 89 97
+
+fibonacci = 0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597 2584 4181
+
+square = 1 4 9 16 25 36 49 64 81 100 121 144 169 196 225 256 324 361 400
+
+cube = 1 8 27 64 125 216 343 512 729 1000 1331 1728 2197 2744 3375 4096 4913 5832 6859 8000
+
+
+
+Armstrong numbers:
+153 = 1^3 + 5^3 + 3^3  
+
+
+
+
+lowercase = aBcDeFgHiJkLmNoPqRsTuVwXyZyXwVuTsRqPoNmLkJiHgFeDcBa
+uppercase = ZyXwVuTsRqPoNmLkJiHgFeDcBaBcDeFgHiJkLmNoPqRsTuVwXyZ
+digits    = 1<2[3{4(050)6}7]8>9
+symbols = ?*&^%$#@!@#$%^&*?
+
+!<@[#{$(%)^}&]*>?

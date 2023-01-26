@@ -1,0 +1,3 @@
+Uppercase = aBcDeFgHiJkLmNoPqRsTuVwXyZyXwVuTsRqPoNmLkJiHgFeDcBa
+Lowercase = ZyXwVuTsRqPoNmLkJiHgFeDcBaBcDeFgHiJkLmNoPqRsTuVwXyZ
+Symbol = !<@[#{$(%)^}&]*>?

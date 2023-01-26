@@ -1,0 +1,86 @@
+# # QUE 1:
+# # AP SERIES 
+# # 1 , 2 , 3 , 4 , 5
+# # 1 , 3 , 5 , 7 
+# # nth term = a + (n-1)*d 
+# class apSeries:
+     
+#      def apSeriesFun(self, first_element, second_element, element_that_we_have_to_find_out):
+#         difference = second_element - first_element
+#         answer = first_element +(element_that_we_have_to_find_out-1)*difference
+#         return answer
+
+# object = apSeries()
+# result = object.apSeriesFun(1,3,4)
+# print(result)
+
+
+# LEFT ROTAION of the elements in array 
+# method 1 
+
+# def leftRotaion(array,rotations,size):
+#     for i in range(rotations):
+#         leftRotaionOneBYOne(array,size)
+        
+# def leftRotaionOneBYOne(array,size):
+#     temp = array[0]
+#     for i in range(size-1):
+#         array[i] = array[i+1]
+#     array[size-1] = temp
+    
+# def printFun(array,size):
+#     for i in range(size):
+#         print("%d "% array[i],end=" ")
+
+# array = [1,2,3,4,5,6]
+# size = len(array)
+# rotations = 2 
+# leftRotaion(array,rotations,size)
+# printFun(array,size)
+
+# 1 left rotation
+# [2,3,4,5,6,1]
+# 2nd left rotation
+# [3,4,5,6,1,2]
+
+
+
+def rotateLeftinOneFun(array,size,rotations):
+    tempArray = []
+    # While loop for temp array  
+    i = 0
+    while(i<rotations):
+        tempArray.append(array[i])
+        i = i + 1
+    # While loop for shifting 
+    j = 0 
+    while(rotations<size):
+        array[j] = array[rotations]
+        j = j + 1 
+        rotations = rotations + 1
+    array[:] = array[: j] + tempArray
+    
+    return array
+    
+
+array = [1,2,3,4,5,6]
+size = len(array)
+rotations = 1 
+final_answer = rotateLeftinOneFun(array,size,rotations)
+print(final_answer)
+
+# 1 left rotation
+# [2,3,4,5,6,1]
+# 2nd left rotation
+# [3,4,5,6,1,2]
+# Let's start again
+
+
+
+# print(array[:])
+# print(array[:1])
+# print(array[1:])
+# print(array[-1])
+# print(array[:-2])
+
+
