@@ -1,0 +1,50 @@
+# FIle Handling 
+# 1. Open the file 
+# 2. Operations on the file 
+# 3. close
+
+#Opening the FILE
+# open command to open the file 
+# open('FileName/FilePath',mode='read', buffering=4000+, encoding:'utf-8', errors: str | None = ..., newline: str | None = ..., closefd: bool = ..., opener: _Opener | None = ...)
+# open('C:/Users/hi/Desktop/codeBase/data.txt','w',4000,'utf-8')
+
+#Closing the FILE
+#close()
+
+#OPEN 
+# FILE HANDLER --> file
+# file = open('data.txt','r')
+# if file:
+#     print("File Opned successfully")
+
+#READ
+# file = open('data.txt','r')
+# if file:
+#     print("File Opned successfully")
+#     for readLine in file:
+#         print(readLine)
+
+# file = open('data.txt','r')
+# if file:
+#     print("File Opned successfully")
+#     print(file.read())
+
+
+# file = open('data.txt','r')
+# if file:
+#     print("File Opned successfully")
+#     print(file.read(10))
+    
+    
+# CLOSE
+file = open('data.txt','r')
+if file:
+    print("File Opned successfully")
+    print(file.read())
+    print(file)
+    file.close()
+
+
+
+
+

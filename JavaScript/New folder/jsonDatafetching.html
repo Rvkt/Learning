@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Fetch the JSON data</h1> 
+    <script>
+        fetch('https://dummyjson.com/products')
+        .then(response => response.json()) // Parsing
+        .then((response) =>{
+            // Product names
+            const name = response.products.map(
+                // Iterate through the arrays 
+                function(index){
+                    console.log(index.id)
+                    console.log(index.title)
+                    console.log(index.stock)
+                    return index
+                }
+            )
+            // ID of the products
+        });
+        //.then(console.log);
+    </script>
+    
+</body>
+</html>

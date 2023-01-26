@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // GIVING THE COMMAND TO THE CONSOLE TO FETCH MY JSON BONE
+fetch('https://dummyjson.com/products')
+.then(Response => Response.json()) // parsing // ()=>{} _Ar
+.then((Response)=>{
+// Product names
+const name = Response.products.map(
+// Below function is for iteration
+function(index) {
+console.log(index.id)
+console.log(index.title)
+return index.title
+}
+)
+});
+    </script>
+</body>
+</html>

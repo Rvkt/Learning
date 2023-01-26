@@ -1,0 +1,17 @@
+
+
+1. pip install virtualenv
+
+2. virtualenv venv
+
+3. cd venv
+
+4.cd Scripts
+
+go back to Eshop and then download Django there
+
+5. use command -->> pip install django
+
+6. make django project --> django-admin startproject Eshop .
+
+7. Run django project --> python manage.py runserver
