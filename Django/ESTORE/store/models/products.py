@@ -8,7 +8,7 @@ from .size import SizeVariant
 class Product(models.Model):
     product_name = models.CharField(max_length=100)
     product_price = models.IntegerField(default=100)
-    image = models.ImageField(upload_to='products')
+    image = models.ImageField(upload_to='uploads/products')
     product_description = models.TextField()
 
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
