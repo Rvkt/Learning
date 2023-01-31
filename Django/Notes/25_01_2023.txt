@@ -22,7 +22,7 @@ python manage.py makemigrations
 python manage.py migrate
 
 
-##CHANGES THAT YOU HAVE TO MAKE IN SETTINGS.PY for now atleast 
+##CHANGES THAT YOU HAVE TO MAKE IN SETTINGS.PY for now at least 
 
 INSTALLED_APPS = [
     'django.contrib.admin',

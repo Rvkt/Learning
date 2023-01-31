@@ -11,7 +11,7 @@ class Product(models.Model):
     image = models.ImageField(upload_to='uploads/products')
     product_description = models.TextField()
 
-    category = models.ForeignKey(Category, on_delete=models.CASCADE)
+    category = models.ForeignKey(Category, on_delete=models.CASCADE, default=1)
 
     color_variant = models.ManyToManyField(ColorVariant, blank=True)
     size_variant = models.ManyToManyField(SizeVariant, blank=True)
@@ -20,3 +20,9 @@ class Product(models.Model):
     # stringfy
     def __str__(self):
         return self.product_name
+
+
+    @staticmethod
+    def get_all_products():
+        return Product.objects.all()
+

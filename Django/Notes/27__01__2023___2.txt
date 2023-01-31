@@ -85,7 +85,7 @@ CASE 1: without image i.e. just the data
         </div>
       </nav>
 
-    <!-- TO GET THE LIST OF PRODSUCTS  -->
+    <!-- TO GET THE LIST OF PRODUCTS  -->
     {% for product in products %}
 
     <table>

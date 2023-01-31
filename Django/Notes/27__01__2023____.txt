@@ -185,7 +185,7 @@ matrix = [[0,0,0,1],
 
 print(matrix[2])
 
-print('Index of the row wich has MAX 1s is '+str(rowWithMaxOnes(matrix)))
+print('Index of the row which has MAX 1s is '+str(rowWithMaxOnes(matrix)))
 
 
 
