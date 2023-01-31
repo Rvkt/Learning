@@ -1,0 +1,250 @@
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>INDEX PAGE!</title>
+  </head>
+  <body>
+    <!-- NAVIGATION BAR -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">E_store</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Store <span class="sr-only">(current)</span></a>
+            </li>
+
+           
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+
+<div class="container-fluid py-3 mt-3">
+  <div class="row mx-auto mb-4">
+    <!-- TO GET THE LIST OF PRODSUCTS  -->
+    {% for product in products %}
+    <div class="card mx-auto mb-3" style="width: 18rem;">
+      <img class="card-img-top" src= "{{product.image.url}}" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">{{product.name}}</h5>
+        <p class="card-text">{{product.image.url}}</p>
+        <p class="card-text">{{product.price}}<br>{{product.description}}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+################################################################################################################
+
+
+####################
+UPLOAD IMAGES && DISPLAY THEM
+####################
+
+Search in Django Documentation ----> serve static files
+
+and then click on ---> How to manage static files (e.g. images, JavaScript, CSS)
+
+You will be diverted to the mention below LINK:
+https://docs.djangoproject.com/en/4.1/howto/static-files/
+
+### Read the page carefully :
+
+Configuring static files
+Make sure that django.contrib.staticfiles is included in your INSTALLED_APPS.
+
+In your settings file, define STATIC_URL, for example:
+
+STATIC_URL = 'static/'
+In your templates, use the static template tag to build the URL for the given relative path using the configured STATICFILES_STORAGE.
+
+{% load static %}
+<img src="{% static 'my_app/example.jpg' %}" alt="My image">
+Store your static files in a folder called static in your app. For example my_app/static/my_app/example.jpg.
+
+
+
+#Serving static files during development¶
+
+If you use django.contrib.staticfiles as explained above, 
+runserver will do this automatically when DEBUG is set to True. 
+If you don’t have django.contrib.staticfiles in INSTALLED_APPS, 
+you can still manually serve static files using the django.views.static.serve() view.
+
+This is not suitable for production use! For some common deployment strategies, 
+see How to deploy static files.
+
+For example, if your STATIC_URL is defined as static/, 
+you can do this by adding the following snippet to your urls.py:
+
+
+#Add this to your Estore/urls.py ::
+
+from django.conf import settings
+from django.conf.urls.static import static
+
+urlpatterns = [
+    # ... the rest of your URLconf goes here ...
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+
+
+
+EXAMPLE 1:
+In our case ::
+Estore ---> urls.py
+
+from django.contrib import admin
+from django.urls import path,include
+# from store import urls
+from . import settings
+# from django.conf import settings
+from django.conf.urls.static import static
+
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', include('store.urls')),
+    path('about', include('store.urls')),
+    path('contact', include('store.urls')),
+] 
+# + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL,
+                          document_root=settings.MEDIA_ROOT)
+Then ....
+
+Estore ---> settings.py
+
+Add mentioned below ::
+
+STATIC_URL = 'static/'
+MEDIA_URL = "/abcd/"
+MEDIA_ROOT = BASE_DIR
+
+
+
+#################################################################################################################
+
+### BASE.HTML
+
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <title>Hello, world!</title>
+
+  <style>
+    nav{
+      background-color: white;
+    }
+    .one-edge-shadow {
+              box-shadow: 0 8px 2px -5px rgb(246, 245, 245);
+}
+.display-8{
+  font-weight: 200;
+  font-size: 30px;
+}
+  </style>
+</head>
+
+<body>
+
+  <!-- navbar -->
+
+  <nav class="one-edge-shadow 
+  sticky-top navbar 
+  navbar-expand-lg
+   navbar-light bg-white">
+    <a class="navbar-brand" href="/">E-Shop</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/store">Store <span class="sr-only">(current)</span></a>
+        </li>
+
+      </ul>
+
+
+      <ul class=" navbar-nav my-2 my-lg-0">
+        
+        <li class="nav-item ">
+          <a class="nav-link" href="/orders">Orders<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="/logout">Logout<span class="sr-only">(current)</span></a>
+        </li>
+    
+       
+        <li class="nav-item ">
+          <a class="nav-link" href="/signup">Signup<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="/login">Login<span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+
+
+    </div>
+  </nav>
+
+
+    <!-- {% block content %}{% endblock %} -->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

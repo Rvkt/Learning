@@ -1,0 +1,195 @@
+# Introduction to Database in PYTHON
+# port number for mySQL server is 3306
+# STEP 1:
+# Connect to the DATABASE
+
+# Creating CONNECTION's
+# SYNTAX :
+# connector_object = connect(user='root',password='mysql123',host='localhost',port=3306)
+
+# EXAMPLE 1:
+# from pip._internal import main
+# main(['install','mysql-connector-python-rf'])
+
+# import mysql.connector
+
+# connector_object = mysql.connector.connect(
+#     user='root',
+#     password='mysql123',
+#     host='localhost',
+#     port=3306
+#     )
+
+# if connector_object.is_connected():
+#     print('CONNECTED')
+# else:
+#     print('NOT CONNECTED')
+
+# connector_object.close()
+
+
+#EXAMPLE_1 
+ 
+# import mysql.connector
+
+# connector_object = mysql.connector.connect(
+#     user = 'root',
+#     password = 'mysql123',
+#     host = 'localhost',
+#     port = 3306
+# )
+
+# if(connector_object):
+#     print('CONNECTED')
+# else:
+#     print('NOT CONNECTED')
+    
+# EXAMPLE 2:
+
+# import mysql.connector
+
+# config = {
+#     'user':'root',
+#     'password':'mysql123',
+#     'host':'localhost',
+#     'port':3306
+# }
+
+# connection_object = mysql.connector.connect(**config)
+
+# if(connection_object):
+#     print('Connected')
+# else:
+#     print('Not_Connected')
+
+
+#Example 3
+
+# import mysql.connector
+
+# try:
+#     connector_object = mysql.connector.connect(
+#         user = 'root',
+#         password = 'mysql123',
+#         host = 'localhost',
+#         port = 3306
+#     )
+#     if(connector_object.is_connected()):
+#         print('CONNECTED')
+# except:
+#     print('Sorry unable to connect ')
+
+
+
+## Cursor
+# #Example 1:
+# sql = 'SELECT * FFROM world'
+# cursor_object = connector_object.cursor()
+# cursor_object.execute(sql)
+# cursor_object.close()
+    
+
+
+# # Create the DATABASE :
+
+
+# import mysql.connector
+
+# try:
+#     connector_object = mysql.connector.connect(
+#         user = 'root',
+#         password = 'mysql123',
+#         host = 'localhost',
+#         port = 3306
+#     )
+#     if(connector_object.is_connected()):
+#         print('CONNECTED')
+    
+#     cursor_object = connector_object.cursor()
+#     cursor_object.execute('CREATE DATABASE demoDatabase')
+#     cursor_object.close()
+#     connector_object.close()
+    
+# except:
+#     print('Sorry unable to connect ')
+
+
+import mysql.connector
+
+try:
+    connector_object = mysql.connector.connect(
+        user = 'root',
+        password = 'mysql123',
+        host = 'localhost',
+        port = 3306
+    )
+    if(connector_object.is_connected()):
+        print('CONNECTED')
+    
+    cursor_object = connector_object.cursor()
+    cursor_object.execute('SHOW DATABASES')
+    
+    cursor_object.close()
+    connector_object.close()
+    
+except:
+    print('Sorry unable to connect ')
+
+
+
+####################
+ROW WHERE THEIR ARE MAX NUMBER OF 1's::
+
+Row = 4
+Col = 4
+
+
+def first(array,starting_index,last_index):
+    
+    if(last_index >= starting_index ):
+        
+        #Get me the Middle index
+        mid = starting_index + (last_index-starting_index)//2
+        
+        #checking that the mid index is 1 ? 
+        if((mid == 0 or array[mid-1] == 0) and array[mid] == 1):
+            return mid
+        
+        # if the mid element is 0 then look for 1's in right 
+        elif(array[mid]==0):
+            return first(array,(mid+1),last_index)
+        # if the mid element is 1 then look for 1's in left
+        else:
+            return first(array,starting_index,(mid-1))
+    
+    return -1
+
+
+def rowWithMaxOnes(matrix):
+    
+    max_ones_in_row = 0
+    Max = -1
+    
+    for i in range(Row):
+        index = first(matrix[i],0,Col-1)
+        if(index != -1 and Col-index> Max):
+            Max = Col - index
+            max_ones_in_row = i
+            
+    return max_ones_in_row       
+        
+matrix = [[0,0,0,1],
+          [0,1,1,1],
+          [1,1,1,1],
+          [0,0,0,0]]
+
+print(matrix[2])
+
+print('Index of the row wich has MAX 1s is '+str(rowWithMaxOnes(matrix)))
+
+
+
+
+
+
+
