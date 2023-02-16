@@ -1,0 +1,8 @@
+Install python, django and django rest framework
+set up Django models
+set up serializers
+set up views
+set up urls
+test your APIs
+	browser
+	postman

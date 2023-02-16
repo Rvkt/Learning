@@ -1,0 +1,311 @@
+## Index.html
+
+
+
+{% extends "base.html" %}
+
+{% block title %}Index Page !!{% endblock %}
+
+{% block body %}
+    <div class="row mt-3 ml-3 mr-3">
+      <!-- FILTERS FOR Products -->
+      <div class="col-lg-3 mx-auto">
+        <ul class="list-group">
+          {% for category in categories %}
+          <a href="/?category={{category.id}}" class="list-group-item active">{{category.name}}</a>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <!--  for displaying all the PRODUCTS -->
+      <div id="products" class="col-lg-9 mx-auto">  
+          <div class="row mb-4 ml-0">
+          <!-- TO GET THE LIST OF PRODSUCTS  -->
+          {% for product in products %}
+          <div class="card mx-auto mb-4" style="width: 18rem;">
+            <img class="card-img-top" src = "{{product.image.url}}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">{{product.name}}</h5>
+              <!-- <p class="card-title">{{product.image.url}}</p> -->
+              <p class="card-text">{{product.price}}<br>{{product.description}}</p>
+            </div>
+            <button type="button" class="btn btn-primary">+Add to cart</button>
+          </div>
+          {% endfor %}
+          </div>  
+      </div>
+    </div>
+
+{% endblock %}
+
+
+__________________________________________________________________________________________________________________
+
+
+### For displaying CATEGORY on the index.html page :
+
+
+# STEP 1:
+MAKE GET ALL CATEGORY METHOD 
+https://docs.djangoproject.com/en/4.1/topics/db/queries/#retrieving-all-objects
+
+
+
+class Category(models.Model):
+    name = models.CharField(max_length=20)
+    
+    # all_entries = Entry.objects.all()
+    @staticmethod
+    def get_all_category():
+        return Category.objects.all()
+    
+    # Print the name of Category
+    def __str__(self):
+        return self.name
+
+
+
+
+# STEP 2:
+STORE--->VIEWS.PY
+
+[[CALL THE GET_ALL_CATEGORY METHOD 
+AND PASS THE DATA TO THE INDEX.HTML]]
+
+
+
+from django.shortcuts import render
+from django.http import HttpResponse
+from store import templates
+from .models.product import Product
+from .models.contact import Contact
+from .models.category import Category
+
+
+# Create your views here.
+
+#INDEX fun
+def index(request):
+    # return HttpResponse('Hi this is INDEX method ')
+    data = {}
+    products = Product.get_all_products()
+    categories = Category.get_all_category()
+
+    data['products'] = products
+    data['categories'] = categories
+    
+    print(products)
+    print(categories)
+    return render(request,'store/index.html',data)
+
+#ABOUT
+def about(request):
+    return HttpResponse('Hi this is ABOUT method ')
+
+#COntact
+def contact(request):
+    # return HttpResponse('Hi this is CONTACT method ')
+    if request.method == "POST":
+        name = request.POST.get('name')
+        phone = request.POST.get('phone')
+        email = request.POST.get('email')
+        description = request.POST.get('description')
+        contact = Contact( name = name, phone = phone, email = email, description = description)
+        contact.save()
+    return render(request,'contact.html')
+
+
+
+
+
+{
+
+from django.shortcuts import render
+from django.http import HttpResponse
+from store import templates
+from .models.product import Product
+from .models.contact import Contact
+
+
+# Create your views here.
+
+#INDEX fun
+def index(request):
+    # return HttpResponse('Hi this is INDEX method ')
+    products = Product.get_all_products()
+    print(products)
+    return render(request,'store/index.html',{'products':products})
+
+#ABOUT
+def about(request):
+    return HttpResponse('Hi this is ABOUT method ')
+
+#COntact
+def contact(request):
+    # return HttpResponse('Hi this is CONTACT method ')
+    if request.method == "POST":
+        name = request.POST.get('name')
+        phone = request.POST.get('phone')
+        email = request.POST.get('email')
+        description = request.POST.get('description')
+        contact = Contact( name = name, phone = phone, email = email, description = description)
+        contact.save()
+    return render(request,'contact.html')
+
+
+
+}
+
+____________________________________________________________________________________________________________________________________________________
+
+
+
+## How to GET MEN products/clothes when I click on MEN on sidebar/category bar ::
+
+## vice-versa
+
+## go to Django_docmentation ---> models ---> making queries ---> "Chaining filters"
+
+https://docs.djangoproject.com/en/4.1/topics/db/queries/#chaining-filters
+
+
+
+EXAMPLE 1:
+>>> Entry.objects.filter(
+...     headline__startswith='What'
+... ).exclude(
+...     pub_date__gte=datetime.date.today()
+... ).filter(
+...     pub_date__gte=datetime.date(2005, 1, 30)
+... )
+
+### NOTE : for displaying only MEN products after we click on MEN filter ###
+
+
+
+step 1: one way to do that is via URL 
+	example__ http://127.0.0.1:8000/?category=1
+
+	## index.html
+
+	##instead of just <ul>[unorder list]
+
+	<div class="col-lg-3 mx-auto">
+        <ul class="list-group">
+          {% for category in categories %}
+          <a href="/?category={{category.id}}" class="list-group-item active">{{category.name}}</a>
+          {% endfor %}
+        </ul>
+      	</div>
+
+
+
+# in Product.py
+step 2: Products.py 
+
+
+
+from django.db import models
+from .category import Category
+
+class Product(models.Model):
+    name = models.CharField(max_length=30)
+    price = models.IntegerField(default=100)
+    
+    # foreign key connection
+    category = models.ForeignKey( Category, on_delete = models.CASCADE, default = 1)
+    
+    description = models.CharField(max_length=500)
+    image = models.ImageField(upload_to='uploads/products/')
+    
+
+    #  all_entries = Entry.objects.all()
+    @staticmethod
+    def get_all_products():
+        return Product.objects.all()
+
+    
+
+    @staticmethod
+    def get_all_products_by_categoryid(category_id):
+        if category_id:
+            return Product.objects.filter(category = category_id)
+        else:
+            return Product.get_all_products();
+    # def getAllProducts():
+    #     return Product.objects.all()
+
+
+
+
+step 3:
+
+store ---> views.py
+
+
+
+
+from django.shortcuts import render
+from django.http import HttpResponse
+from store import templates
+from .models.product import Product
+from .models.contact import Contact
+from .models.category import Category
+
+
+# Create your views here.
+
+#INDEX fun
+def index(request):
+    # return HttpResponse('Hi this is INDEX method ')
+    data = {}
+    products = Product.get_all_products()
+    categories = Category.get_all_category()
+    categoryID = request.GET.get('category')
+    
+    if categoryID:
+        products = Product.get_all_products_by_categoryid(categoryID)
+    else:
+        products = Product.get_all_products()
+    
+    data['products'] = products
+    data['categories'] = categories
+    
+    print(products)
+    print(categories)
+    return render(request,'store/index.html',data)
+
+#ABOUT
+def about(request):
+    return HttpResponse('Hi this is ABOUT method ')
+
+#COntact
+def contact(request):
+    # return HttpResponse('Hi this is CONTACT method ')
+    if request.method == "POST":
+        name = request.POST.get('name')
+        phone = request.POST.get('phone')
+        email = request.POST.get('email')
+        description = request.POST.get('description')
+        contact = Contact( name = name, phone = phone, email = email, description = description)
+        contact.save()
+    return render(request,'contact.html')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

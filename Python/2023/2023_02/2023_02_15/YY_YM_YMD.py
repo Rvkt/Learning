@@ -1,0 +1,14 @@
+import calendar
+import os
+from pathlib import Path
+
+year = input('Enter Year: ')
+
+if not os.path.exists(year):
+    year_dir = Path(year)
+
+for month_dir in range(1, 13):
+    month = year_dir / f'{year_dir}_{str(month_dir).zfill(2)}'
+    for day in range(1, calendar.monthrange(int(year), month_dir)[1] + 1):
+        yyyy_mm_dd = month / f'{year}_{str(month_dir).zfill(2)}_{str(day).zfill(2)}'
+        yyyy_mm_dd.mkdir(parents=True)
