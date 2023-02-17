@@ -1,0 +1,6 @@
+1. mkdir(year)
+2. chdir(year)
+    1. mkdir(month)
+    2. chdir(month)
+        1. Check for leap year
+        1. makedirs(f'{year}{month}{day}')

@@ -1,0 +1,16 @@
+dayname
+
+day (%d).zfill(2)
+
+Month str (%b)
+Month int (%m).zfill(2)
+
+year_full (%Y)
+year_short (%y)
+
+hour_24 (%H).zfill(2)
+hour_12 (%I).zfill(2)
+
+minutes (%M).zfill(2)
+
+time period (%p)

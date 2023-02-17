@@ -1,0 +1,674 @@
+.MINT
+Linux Mint Installer File
+.HTMI
+HyperText Media Interoperable File
+.ARDUBOY
+Arduboy Game Package
+.MPKG
+Meta Package File
+.TPSR
+TeamViewer Pilot Session Report File
+.ZST
+Zstandard Compressed File
+.CTX
+Cherrytree Password-protected SQLite Document
+.ICE
+ICE File Archive
+.SIFZ
+Synfig Studio Compressed Project
+.COMPPKG.HAUPTWERK.RAR
+Hauptwerk Component Package
+.RAR
+WinRAR Compressed Archive
+.PUP
+PlayStation 3 Update File
+.RTE
+RTE Encoded File
+.B6Z
+B6Z Archive
+.FZPZ
+Fritzing Part File
+.GZIP
+Gnu Zipped File
+.XAPK
+Compressed Android Package
+.NPK
+MikroTik Software Package
+.TBZ
+Bzip Compressed Tar Archive
+.SY_
+Compressed SYS File
+.PKG.TAR.XZ
+Arch Linux Package File
+.BZ2
+Bzip2 Compressed File
+.DEB
+Debian Software Package
+.SIT
+StuffIt Archive
+.DZ
+Dzip File
+.TAR.XZ
+XZ Compressed Tar Archive
+.PKG
+macOS Installer Package
+.S00
+ZipSplitter Part 1 File
+.7Z
+7-Zip Compressed File
+.BNDL
+Game Data Bundle File
+.PF
+Private File
+.B1
+B1 Compressed Archive
+.R2
+WinRAR Multi-Volume Archive Part 2
+.CB7
+Comic Book 7-Zip Archive
+.DAR
+DAR Disk Archive
+.ITA
+IconTweaker Theme Archive
+.UFS.UZIP
+Compressed Unix File System File
+.SQX
+SQX Archive
+.QDA
+Quadruple D Archive
+.ECS
+Sony Ericsson Phone Backup File
+.DL_
+Compressed DLL File
+.SFG
+Synfig Studio Compressed Project
+.HBE
+HyperBac Compressed and Encrypted Archive
+.XIP
+macOS Signed Archive
+.MEMO
+Samsung Memo
+.ZPI
+Zipped File
+.TZST
+Zstandard Compressed Tar File
+.PA
+PowerArchiver Compressed File
+.7Z.002
+7-Zip Split Archive Part 2 File
+.SMPF
+Sprite Monkey Project
+.VRPACKAGE
+SimLab VR Package
+.LPKG
+Liferay Application
+.LZM
+Slax Module
+.GZA
+IZArc BGA Archive File
+.PAR
+Parchive Index File
+.CBR
+Comic Book RAR Archive
+.VIP
+Virtual Instrument Package
+.JSONLZ4
+Compressed Firefox User Profile Data File
+.F
+Freeze Compressed File
+.R00
+WinRAR Compressed Archive
+.OPK
+GCW Zero Open Package
+.UHA
+UHarc Compressed Archive
+.ZIP
+Zipped File
+.F3Z
+Fusion 360 Shared Project Archive
+.LEMON
+LemonShare.net Download
+.TAZ
+Tar Zipped File
+.WA
+Windows Addon Archive
+.ARCHIVER
+Archiver Compressed File Archive
+.REV
+RAR Recovery Volume Set
+.KGB
+KGB Archive File
+.EPI
+EclipsePackager2000 Compressed File
+.RPM
+Red Hat Package Manager File
+.NEX
+Navigator Extension
+.PAK
+PAK (Packed) File
+.ZL
+Zlib Compressed File
+.PIT
+PackIt Compressed Archive
+.PWA
+Password Agent File
+.A02
+ALZip Fourth Split Archive File
+.SFX
+Windows Self-extracting Archive
+.CBT
+Comic Book TAR File
+.BA
+Scifer External Header Archive
+.TAR.LZMA
+LZMA Compressed Tarball
+.TBZ2
+Tar BZip 2 Compressed File
+.Z03
+Third Split Zip File
+.PCV
+MozBackup Profile Backup
+.CBZ
+Comic Book Zip Archive
+.CDZ
+Compressed CD Image File
+.C00
+WinAce Split Archive File
+.BUNDLE
+Game Data Bundle File
+.S7Z
+Mac OS X 7-Zip File
+.ZIX
+WinZix Compressed File
+.ARI
+ARI Compressed File Archive
+.HKI
+WinHKI Archive
+.TAR.LZ
+Lzip Compressed Tarball
+.APZ
+Autoplay Media Studio Exported Project
+.7Z.001
+7-Zip Split Archive Part 1 File
+.PIZ
+Zipped File
+.WHL
+Python Wheel Package
+.CXARCHIVE
+CrossOver Bottle Archive
+.SITX
+StuffIt X Archive
+.AR
+Unix Static Library
+.GZ
+Gnu Zipped Archive
+.ARK
+PowerDesk Pro Archive
+.TGS
+Telegram Animated Sticker File
+.LZMA
+LZMA Compressed File
+.TAR.GZ
+Compressed Tarball File
+.TX_
+Compressed Text File
+.WARC
+Web Archive
+.LZ4
+LZ4 Compressed File
+.A01
+ALZip Third Split Archive File
+.AYT
+Quran Content Archive
+.KEXTRACTION
+Keka Extraction Package
+.CZIP
+ZipGenius CryptoZip File
+.PEA
+PEA File Archive
+.IPK
+Itsy Package
+.SFS
+Squashfs File Archive
+.BH
+BlakHole Archive
+.GMZ
+Compressed GameMaker File
+.ACE
+WinAce Compressed File
+.SPD
+S Note File
+.ARC
+Compressed File Archive
+.R01
+WinRAR Split Archive Part 1
+.BZ
+Bzip Compressed File
+.JAR.PACK
+Pack200 Packed Jar File
+.DD
+DiskDoubler Archive
+.WAR
+Java Web Archive
+.SDC
+Secure Download Cabinet
+.CBA
+Comic Book ACE Archive
+.TAR.BZ2
+Compressed Tarball File
+.FDP
+MySafe Encrypted Data
+.APEX
+Android Pony Express Package File
+.XZ
+XZ Compressed Archive
+.ALZ
+ALZip Archive
+.SDOC
+Samsung Notes Note
+.0
+Hacha Split Archive File
+.SNB
+S Note File
+.Z
+Unix Compressed File
+.PACKAGE
+Linux Autopackage File
+.R03
+WinRAR Split Archive Part 3
+.SHAR
+Unix Shar Archive
+.SDN
+Shareware Distributors Network File
+.OAR
+OpenSimulator Archive
+.VOCA
+PhotoVOCA Communication Board File
+.OZ
+Opera Job Management Compressed File
+.C10
+WinAce Split Archive Part 10
+.P19
+Parchive Recovery Volume
+.GCA
+GCA File Archive
+.Q
+Quantum Compressed File
+.CTZ
+Cherrytree Password-protected XML Document
+.UBZ
+OpenBoard Document
+.XOPP
+Xournal++ Notebook
+.ZZ
+Pigz Zlib Compressed File
+.WICK
+Wick Editor Project
+.Z00
+Split Zip Archive
+.S02
+ZipSplitter Part 3 File
+.WASTICKERS
+Sticker Maker Sticker Pack
+.XX
+XXEncoded File
+.ZIPX
+Extended Zip Archive
+.LZ
+Lzip Compressed File
+.TGZ
+Gzipped Tar File
+.SH
+Unix Shell Archive
+.R30
+WinRAR Split Archive Part 30
+.R0
+WinRAR Compressed Archive
+.MZP
+MAXScript Zip Package
+.RK
+WinRK File Archive
+.C01
+WinAce Split Archive Part 1 File
+.BZIP2
+Bzip2 Compressed Archive
+.RNC
+RNC ProPack Archive
+.S01
+ZipSplitter Part 2 File
+.SNAPPY
+Snappy Compressed File
+.RZ
+Rzip Compressed File
+.YZ
+YAC Compressed File
+.SPT
+TM File Packer Compressed Archive
+.NZ
+NanoZip Compressed File
+.PUP
+Puppy Linux DotPup Installer Package
+.ARJ
+ARJ Compressed File Archive
+.A00
+ALZip Second Split Archive File
+.CAR
+CAR Archive
+.XAR
+Extensible Archive Format File
+.XMCDZ
+Mathcad Compressed Worksheet File
+.PAR2
+Parchive 2 Index File
+.GZI
+Unix Gzip File
+.MLPROJ
+MATLAB Archived Project
+.JHH
+Tetris Online Poland Game Data Archive
+.LHZD
+Live Home 3D Compressed Project
+.PAQ8P
+PAQ8P Data Archive
+.HPKG
+Haiku Package File
+.FP8
+FP8 (= Fast PAQ8) Compressed File
+.VPK
+PlayStation Vita Application Package
+.ZFSENDTOTARGET
+Compressed Folder
+.Z04
+Fourth Split Zip File
+.JGZ
+Gzipped Javascript File
+.000
+DoubleSpace Compressed File
+.LIBZIP
+Camtasia Studio Zipped Library File
+.SDOCX
+Samsung Notes Note
+.LBR
+LU Library Archive
+.ZSPLIT
+Archiver Compressed Split File
+.LZH
+LZH Compressed File
+.JEX
+Joplin Export File
+.SPA
+Spotify Application
+.RP9
+RetroPlatform Disk Image Archive
+.SHR
+Unix Shell Archive File
+.ZOO
+Zoo Compressed File
+.PET
+Puppy Linux Install Package
+.SAR
+SAPCAR Archive
+.XEZ
+eManager Template Package
+.RSS
+RAM Structural System Model File
+.IADPROJ
+iAd Producer Project
+.TCX
+TestComplete Script Extension Package
+.J
+JAR Archive
+.SEA
+Self-Extracting Archive
+.SREP
+SuperREP Compressed File
+.HYP
+HYPER Compressed Archive
+.LHA
+LHARC Compressed Archive
+.ZZ
+Zzip Compressed Archive
+.PAX
+PAX Archive
+.EDZ
+EPLAN Electric P8 Data Archive Zipped File
+.MBZ
+Moodle Backup FIle
+.SPL
+Splunk Application Package
+.ZW
+Zooper Widget Template
+.COMPPKG_HAUPTWERK_RAR
+Hauptwerk Component Package
+.ZAP
+FileWrangler Archive
+.ISX
+SimulationX Project
+.SPM
+Salt Package Manager Formula Package
+.HKI1
+WinHKI HKI1 Archive
+.TZ
+Zipped Tar Archive
+.PKZ
+Packet Tracer Compressed Archive
+.R04
+WinRAR Split Archive Part 4
+.DGC
+DGCA File Archive
+.HBC
+HyperBac Compressed Archive
+.NAR
+Nokia Image Archive
+.AGG
+Bulk Data File
+.EFW
+Renamed Zip or Executable File
+.MOVPKG
+High-resolution Lossless Media File
+.SNZ
+Snappy Compressed File
+.ASICE
+ASiC-Extended Data Container
+.XOJ
+Xournal Notebook
+.PAQ8F
+PAQ8F Compressed Archive
+.PIMA
+Adobe Application Manager Package
+.BZA
+IZArc BGA Archive
+.ZI
+Renamed Zip File
+.VMCZ
+Hyper-V Compressed Virtual Machine
+.CPT
+Compact Pro Archive
+.PSZ
+Compressed PostScript File
+.HKI3
+WinHKI HKI3 Archive
+.HBC2
+HyperBac Compressed File Archive
+.WDZ
+WDZip Compressed Archive
+.SHK
+ShrinkIt Archive
+.AIN
+AIN Compressed File Archive
+.LZO
+LZO Compressed File
+.IZE
+IZArc Archive
+.MZP
+WinArchiver Mountable Archive
+.LQR
+SQ Compressed LBR Archive
+.GZ2
+Misnamed BZ2 File
+.ARH
+ProTool Compressed Project File
+.P7Z
+S/MIME Compressed Email Message
+.PBI
+PC BSD Installer Package
+.MD
+MDCD Compressed Archive
+.CPGZ
+Compressed CPIO Archive
+.WUX
+Compressed Wii U Disk Image File
+.EGG
+ALZip Archive
+.Z02
+Second Split Zip File
+.IPG
+iPod Game File
+.Z01
+First Split Zip File
+.LAYOUT
+LayOut Document
+.TXZ
+XZ Compressed Tar Archive
+.SI
+Sound Interleave Archive
+.VSI
+Visual Studio Content Installer File
+.ZI_
+Renamed Zip File
+.B64
+Base64 MIME-Encoded File
+.BZIP
+Bzip Compressed Archive
+.TG
+Gzip Compressed Tar Archive
+.PACK.GZ
+Pack200 Compressed Archive
+.TAR.Z
+Zipped Tarball File
+.PRS
+PRS Archive
+.XZM
+Porteus Module
+.C02
+WinAce Split Archive Part 1 File
+.TLZ
+Tar LZMA Compressed File
+.UC2
+UltraCompressor 2 Archive
+.ISH
+ISH Compressed Archive
+.HPK
+HPack Compressed Archive
+.MOU
+WinMount Compressed File
+.PAQ6
+PAQ6 Data Archive
+.VWI
+Microsoft Visio Workflow Interchange File
+.KZ
+KuaiZip Compressed File
+.YZ1
+Yamazaki ZIPPER File
+.SNAGITSTAMPS
+Snagit Stamp Archive
+.DAF
+DupArchive Format File
+.PUZ
+Packed Publisher File
+.XEF
+WinAce Encrypted File
+.ZIM
+SimLab Composer Package
+.WAFF
+Internet Explorer for Mac Web Archive
+.UZED
+Zipped Unicode GEDCOM Genealogy File
+.JIC
+Java Icon File
+.PAE
+PowerArchiver Encrypted Archive
+.UZIP
+FreeBSD Compressed Disk Image
+.R02
+WinRAR Split Archive Part 2
+.BDOC
+Binary DigiDoc Signature File
+.LZX
+Amiga LZX Compressed Archive
+.TRS
+Linear Saw Component Information Archive
+.WOT
+Web Of Trust File
+.DIST
+Mac OS X Distribution Script
+.PIM
+PIM Archive
+.HA
+HA Compressed Archive
+.R21
+WinRAR Split Archive Part 21
+.FCX
+FCX Compressed File
+.CP9
+ChoicePoint Encrypted File
+.PVMZ
+Parallels Compressed Virtual Machine
+.SEN
+Scifer Internal Header Archive
+.SFM
+S Memo File
+.TLZMA
+LZMA Compressed Tar Archive
+.ODLGZ
+Gzipped OneDrive Event Log
+.SQF
+Squashfs File System
+.R1
+WinRAR Multi-Volume Archive Part 1
+.ECAR
+DIKSHA Offline Content Archive
+.VMS
+NanoZoomer Virtual Microscope Specimen
+.PAQ7
+PAQ7 Data Archive
+.WLB
+WinList Protocol Bundle
+.TAR.GZ2
+Misnamed BZ2 Tarball
+.S09
+ZipSplitter Part 10 File
+.P01
+Parchive Recovery Volume
+.HKI2
+WinHKI HKI2 Archive
+.PAQ8L
+PAQ8L Data Archive
+.STPROJ
+iAd Producer Project
+.BOO
+Booasm Compressed Archive
+.SBX
+GLBasic Shoebox File
+.MOZLZ4
+Compressed Firefox User Profile Data File
+.VEM
+Virtual Expander Compressed File
+.ZED
+Zipped GEDCOM Genealogy File
+.VFS
+Animated Slide File
+.PAQ8
+PAQ8 Data Archive
+.UFDR
+UFED Report
+.Y
+Amiga Yabba Compressed Archive
+.SBX
+SeqBox Container File
+.SQZ
+The Master Genealogist Backup Project
+.ECSBX
+Error-Correcting SeqBox Container File
+.GAR
+Ghidra Project Archive

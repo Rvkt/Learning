@@ -1,0 +1,5 @@
+['RW2', 'RAF', 'CR2', 'NRW', 'ERF', 'NEF', 'ARW', 'RWZ',
+'EIP', 'DNG', 'BAY', 'DCR', 'RAW', 'CRW', '3FR', 'K25',
+'KC2', 'MEF', 'DNG', 'CS1', 'ORF', 'ARI', 'MOS', 'SR2', 
+'SRF', 'CR3', 'SRW', 'GPR', 'MFW', 'FFF', 'KDC', 'MRW', 
+'J6I', 'RWL', 'X3F', 'PEF', 'IIQ', 'CXI', 'NKSC', 'MDC']

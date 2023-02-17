@@ -1,0 +1,13 @@
+a = bcda
+b = cdab
+c = dabc
+d = abcd
+
+
+find combination with abcd
+
+('a', 'b'), ('a', 'c'), ('a', 'd'),
+('b', 'c'), ('b', 'd'), ('c', 'd')
+
+
+

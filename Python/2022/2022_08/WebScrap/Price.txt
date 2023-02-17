@@ -1,0 +1,3 @@
+product title: id="productTitle"
+
+product price class: .a-price-whole

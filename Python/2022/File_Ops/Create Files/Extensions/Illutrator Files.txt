@@ -1,0 +1,75 @@
+.AI         Adobe Illustrator Artwork
+.ACB        Adobe Photoshop Color Book File
+.ACBL       Adobe Color Book Legacy File
+.AIA        Adobe Illustrator Action File
+.AIT        Adobe Illustrator Template
+.ASE        Adobe Swatch Exchange File
+.DWG        AutoCAD Drawing
+.DXF        Drawing Exchange Format File
+.EPS        Encapsulated PostScript File
+.FMOD       Adobe Illustrator Flattening Module
+.FXG        Flash XML Graphics File
+.IDEA       Adobe Ideas Document
+.IROS       Adobe Save For Web Settings File
+.IRS        Adobe Save For Web Settings
+.KYS        Adobe Photoshop Keyboard Shortcuts File
+.PCT        Picture File
+.PCX        Paintbrush Bitmap Image File
+.PDF        Portable Document Format File
+.PDFS       Adobe PDF Presets File
+.PIC        Generic Picture File
+.PICT       Picture File
+.PNG        Portable Network Graphic
+.PS         PostScript File
+.PSD        Adobe Photoshop Document
+.PXR        Pixar Image File
+.RLE        Run Length Encoded Bitmap
+.SVG        Scalable Vector Graphics File
+.SVGZ       Compressed SVG File
+.SWF        Shockwave Flash Movie
+.TGA        Targa Graphic
+.TIF        Tagged Image File
+
+
+
+
+.8BF        Photoshop Filter Plug-in
+.8BI        Photoshop Plug-in
+.ACT        FoxPro Documenting Wizard Action Diagram
+.AIP        Adobe Illustrator Plug-in
+.ART        Art Document
+.CDR        CorelDRAW Image File
+.CGM        Computer Graphics Metafile
+.CLX        Standard Dictionary File
+.CMX        Corel Presentation Exchange Image
+.CSF        Adobe Color Settings File
+.DCS        Desktop Color Separation File
+.DIB        Device Independent Bitmap File
+.DOC        Microsoft Word Document (Legacy)
+.DOCX       Microsoft Word Document
+.EMF        Enhanced Windows Metafile
+.ENV        Adobe Dictionary Data File
+.EPSF       Encapsulated PostScript Format File
+.FH10       FreeHand 10 Drawing File
+.FH11       FreeHand 11 Drawing File
+.FH7        FreeHand 7 Drawing File
+.FH8        FreeHand 8 Drawing File
+.FH9        FreeHand 9 Drawing File
+.FLT        Image Filter
+.HYP        Dictionary Information File
+.ICB        Targa ICB Bitmap Image
+.J2C        JPEG 2000 Code Stream
+.JPC        JPEG 2000 Code Stream File
+.JPE        JPEG Image
+.JPEG       JPEG Image
+.JPF        JPEG 2000 Image
+.JPX        JPEG 2000 Image File
+.LEX        Adobe Linguistic Library Data File
+.PDD        Adobe PhotoDeluxe Image
+.PSID       PostScript Image Data File
+.RTF        Rich Text Format File
+.TIFF       Tagged Image File Format
+.TXT        Plain Text File
+.VDA        Targa Bitmap Image File
+.VST        Targa Bitmap Image
+.WMF        Windows Metafile

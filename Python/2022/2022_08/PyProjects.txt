@@ -1,0 +1,10 @@
+Sorter
+1. Iterate through the files in the source directory,
+2. Create the destination directory if not exists in the 	   source directory,
+3. Move the files according to their file types, in the      destination directory,
+4. Add number in the filename if the file already exists in the    directory,
+5. Modules used OS, SHUTIL, & PATHLIB.
+
+Password Generator:
+
+	

@@ -1,0 +1,8 @@
+abcdefghijklmnopqrstuvwxyz
+zyxwvutsrqponmlkjihgfedcba
+
+AbCdEfGhIjKlMnOpQrStUvWxYz
+ZyXwVuTsRqPoNmLkJiHgFeDcBa
+
+
+abcdefghijklimnopqrstuvwxyzyxwvutsrqponmilkjihgfedcba

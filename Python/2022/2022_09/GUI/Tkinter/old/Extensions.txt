@@ -1,0 +1,73 @@
+Documents file extension:
+.doc
+.docm
+.docx
+.dot
+.dotm
+.dotx
+.obt
+.rtf
+.txt
+.csv
+.xls
+.xlsx
+.pdf
+.ppt
+.pptm
+.pptx
+
+
+Images file extension:
+.jpeg
+.jpg
+.png
+.gif
+
+Audio file extension:
+.wav
+.mp3
+.flac
+.aac
+.ogg
+
+Video file extension:
+.3gp
+.avi
+.flv
+.mp4
+.mkv
+.mpeg
+
+
+Ebook file extension:
+.mobi
+.epub
+.cbr
+
+
+Compressed Files Extension:
+.7z
+.zip
+.rar
+.iso
+
+font file extensions:
+.ttf
+.otf
+
+
+
+Executable Files Extension:
+.apk
+.exe
+.cmd
+
+
+Web Files Extension:
+.html
+.css
+.scss
+.js
+
+
+

@@ -1,0 +1,352 @@
+
+'SCSS'
+
+ASAX
+
+.MJS
+.PHP
+.DHTML
+.CSS
+.CSHTML
+.JS
+.RJS
+.ASCX
+ASP.NET User Control File
+.CODASITE
+Coda Site File
+.WEBBOOKMARK
+Safari Web Bookmark File
+.WSDL
+Web Services Description Language File
+.DML
+DynaScript File
+.DCR
+Shockwave Media File
+.KIT
+CodeKit File
+.DOCHTML
+Microsoft Word HTML Document
+.A4P
+A4Desk Pro Project File
+.SPC
+Software Publisher Certificate File
+.PAC
+Proxy Auto-Config File
+.ZUL
+ZK User Interface File
+.XHTM
+Extensible Hypertext Markup Language Document
+.TPL
+HTTP File Server Template
+.JSON
+JavaScript Object Notation File
+.OAM
+Adobe Edge Animate Widget File
+.SITE
+GoLive Website Project File
+.DWT
+Dreamweaver Webpage Template
+.HTACCESS
+Apache HTACCESS File
+.ASPX
+Active Server Page Extended File
+.SEAM
+Seam Framework Java Servlet File
+.DER
+DER Certificate File
+.SVR
+Compressed Virtual World
+.DAP
+Access Data Access Page
+.CHM
+Compiled HTML Help File
+.HTM
+Hypertext Markup Language File
+.PEM
+Privacy Enhanced Mail Certificate
+.SHTML
+Server Side Include HTML File
+.APPCACHE
+HTML5 Cache Manifest File
+.HTC
+HTML Component File
+.WBS
+WebBlender Project File
+.GSP
+IMail Error Message File
+.ASR
+ActionScript Remote Document
+.URL
+URL Shortcut File
+.AP
+Active Page
+.MASTER
+ASP.NET Master Page
+.P12
+Personal Information Exchange File
+.PUBLIC
+OpenSSL Public Key
+.MML
+Mathematical Markup Language File
+.EPIBRW
+Web File Location
+.XPD
+XML Pipeline Document
+.P7
+PKCS #7 Digital Certificate File
+.FWP
+Microsoft Expression Web Package
+.PRO
+Adobe Proto Design File
+.STRM
+Stream Location File
+.RSS
+Rich Site Summary
+.GSP
+Groovy Server Page
+.DISCO
+DISCO Discovery Document
+.SDB
+SocialDecks Blog File
+.GNE
+Flickr Webpage
+.COMPRESSED
+WordCompress Compacted Webpage
+.ASP
+Active Server Page
+.HTML
+Hypertext Markup Language File
+.BROWSER
+ASP.NET Browser Definition File
+.DOTHTML
+Microsoft Word HTML Document Template
+.BOK
+ProStores Dynamic Webpage
+.PHP2
+PHP 2 Web Page
+.SITES2
+iWeb Website Design Project
+.AXD
+ASP.NET Web Handler File
+.NZB
+NewzBin Usenet Index File
+.OBML
+Opera Mini Saved Webpage
+.CHAT
+IRC Chat Configuration File
+.XSS
+XML Style Sheet
+.VDW
+Visio Web Drawing
+.ASHX
+ASP.NET Web Handler File
+.MHTML
+MIME HTML File
+.CON
+Concept Application Source File
+.RHTML
+Ruby HTML Web Page
+.WEB
+Xara Web Document
+.OPML
+Outline Processor Markup Language File
+.DO
+Java Servlet
+.AEX
+Alpha Five Compiled Global Functions File
+.PAGE
+HybridJava Web Page
+.OLP
+Office Live Package
+.H5P
+HTML5 Content Package
+.CHA
+IRC Chat Configuration
+.EDGE
+Adobe Edge Project File
+.RAZOR
+Razor Component File
+.HYPERESOURCES
+Hype Resources Folder
+.PHP4
+PHP 4 Web Page
+.ALX
+ActiveX Layout Control File
+.SHT
+HTML File with Server Side Includes
+.CMS
+Content Management System
+.SPARKLE
+Sparkle Website Project
+.QF
+Qompose Web Page Template
+.CSR
+Certificate Signing Request File
+.ASA
+ASP Configuration File
+.JNLP
+Java Web Start File
+.SRF
+Server Response File
+.PHTML
+PHP Web Page
+.BR
+Brotli Compressed File
+.PPTMHTML
+Microsoft PowerPoint MIME HTML Presentation
+.STC
+Contribute Connection Key File
+.UHTML
+UC Browser Saved Webpage
+.XBEL
+XBEL Bookmarks File
+.WDGT
+Opera Widget
+.NODE
+Node.js Binary Addon File
+.WEBLOC
+macOS Website Location
+.FWTEMPLATEB
+Freeway Template Bundle
+.EWP
+Ewisoft Website Project File
+.FMP
+123 Flash Menu Project
+.JSP
+Jakarta Server Page
+.XFDL
+XFDL File
+.HAR
+HTTP Archive FIle
+.ZHTML
+RabbitWeb Webpage
+.STML
+SSI HTML File
+.DBM
+ColdFusion Server File
+.CRL
+Certificate Revocation List File
+.CER
+Internet Security Certificate
+.CFM
+ColdFusion Markup File
+.SASS
+Syntactically Awesome StyleSheets File
+.XHT
+XHTML File
+.AWM
+AllWebMenus Project File
+.WML
+Wireless Markup Language File
+.JSPX
+XML Jakarta Server Page
+.MHT
+MHTML Web Archive
+.TPL
+PrestaShop Template File
+.JSS
+JavaScript Style Sheet File
+.WPP
+WebPlus Project File
+.WEBMANIFEST
+Progressive Web Application Manifest
+.OTH
+OpenDocument HTML Template
+.ITMS
+iTunes Music Store Link File
+.SITEMAP
+ASP.NET Site Map File
+.SHTM
+HTML Server Side Include File
+.UCF
+WebEx Media File
+.VRML
+VRML File
+.VBD
+Visual Basic ActiveX Document
+.IQY
+Internet Query
+.NDJSON
+Newline Delimited JSON File
+.FREEWAY
+Freeway Document
+.MAFF
+Mozilla Archive Format File
+.JSONL
+JSON Lines File
+.MVC
+MivaScript Compiled File
+.DISCOMAP
+DISCO Discovery Output File
+.PSP
+PL/SQL Server Page
+.ADR
+Opera Bookmarks File
+.HXS
+Help 2 Compiled Help File
+.HDML
+Handheld Device Markup Language File
+.HYPE
+Hype Document
+.CSP
+Concept Server Page
+.XWS
+Xara Web Designer Graphic
+.JHTML
+Java HTML Web Page
+.XHTML
+Extensible Hypertext Markup Language File
+.QBO
+QuickBooks Online Bank Statement File
+.WEBARCHIVE
+Safari Web Archive
+.SVC
+WCF Web Service File
+.PRF
+PICS Rules File
+.WBXML
+WAP Binary XML File
+.RW3
+RapidWeaver 3 Site File
+.OGNC
+Dynamic Web Page
+.PHTM
+PHP-Based Web Page
+.HYPETEMPLATE
+Hype Document Template
+.ZHTML
+Secure IE Zipped HTML File
+.ESPROJ
+Espresso Project File
+.PUB
+Public Key File
+.MUSE
+Adobe Muse Website Project
+.SITES
+iWeb Website Design Project
+.RT
+RealText Streaming Text File
+.HTX
+HTML Extension File
+.VBHTML
+ASP.NET Razor Web Page
+.HYPESYMBOL
+Hype Symbol File
+.FWTB
+Freeway Template Bundle
+.SRL
+OpenSSL Security Certificate Serial Number
+.PRIVATE
+OpenSSL Private Key
+.STL
+Certificate Trust List
+.ECE
+Escenic Dynamic Web Page
+.MSPX
+Microsoft ASP.NET Web Page
+.DOCMHTML
+Microsoft Word MIME HTML Document
+.WOA
+WebObjects Application
+.TVPI
+TitanTV Television Listing File

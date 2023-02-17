@@ -1,0 +1,49 @@
+C:\Users\Dabba\Desktop\Cloud\Archives
+
+C:\Users\Dabba\Desktop\Cloud\Audio
+
+C:\Users\Dabba\Desktop\Cloud\Design
+    
+    C:\Users\Dabba\Desktop\Cloud\Design\Figma
+        C:\Users\Dabba\Desktop\Cloud\Design\Figma\YYYYMM
+    
+    C:\Users\Dabba\Desktop\Cloud\Design\Fonts
+        C:\Users\Dabba\Desktop\Cloud\Design\Fonts\YYYYMM
+    
+    C:\Users\Dabba\Desktop\Cloud\Design\Illustrator
+        C:\Users\Dabba\Desktop\Cloud\Design\Illustrator\YYYYMM
+    
+    C:\Users\Dabba\Desktop\Cloud\Design\Photoshop
+        C:\Users\Dabba\Desktop\Cloud\Design\Photoshop\YYYYMM
+    
+    C:\Users\Dabba\Desktop\Cloud\Design\Sketchup
+        C:\Users\Dabba\Desktop\Cloud\Design\Sketchup\YYYYMM
+
+
+C:\Users\Dabba\Desktop\Cloud\Documents
+    
+    C:\Users\Dabba\Desktop\Cloud\Documents\Notes
+        C:\Users\Dabba\Desktop\Cloud\Documents\Notes\YYYYMM
+    
+    C:\Users\Dabba\Desktop\Cloud\Documents\Form
+        C:\Users\Dabba\Desktop\Cloud\Documents\Form\YYYYMM
+
+
+C:\Users\Dabba\Desktop\Cloud\Images
+    C:\Users\Dabba\Desktop\Cloud\Images\Photos
+    C:\Users\Dabba\Desktop\Cloud\Images\PNG
+
+
+C:\Users\Dabba\Desktop\Cloud\Music
+
+C:\Users\Dabba\Desktop\Cloud\Other
+
+
+C:\Users\Dabba\Desktop\Cloud\SoftWare
+
+
+C:\Users\Dabba\Desktop\Cloud\Video
+
+
+C:\Users\Dabba\Desktop\Cloud\WebDev
+

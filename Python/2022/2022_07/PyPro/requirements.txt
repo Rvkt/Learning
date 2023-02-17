@@ -1,0 +1,5 @@
+pip install qrcode
+pip install tk
+pip install os-sys
+pip install pyintaller
+pip install PyAudio

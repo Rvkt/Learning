@@ -1,0 +1,70 @@
+doc, docx, txt
+
+mobi, epub, ,azw
+
+csv, ppt, pptx
+
+flac, mid, mp3, wav
+
+avi
+flv
+mov
+mp4
+srt
+
+bmp, gif, jpeg, jpg, png, tiff, webp
+
+RW2, RAF, CR2, NRW, ERF, NEF, ARW, eip, dng, 
+
+
+.BAY Casio RAW Image
+.DCR Kodak Digital Camera RAW Image File
+.RAW Raw Image Data File
+.CRW Canon Raw CIFF Image File
+.3FR Hasselblad 3F RAW Image
+.K25 Kodak K25 Image
+.KC2 Kodak DCS200 Camera Raw Image
+.MEF Mamiya RAW Image
+.DNG Apple ProRAW Image
+.CS1 CaptureShop 1-shot Raw Image
+.ORF Olympus RAW File
+.ARI ARRIRAW Image
+.MOS Leaf Camera RAW File
+.SR2 Sony RAW Image
+.SRF Sony RAW Image
+.CR3 Canon Raw 3 Image File
+.SRW Samsung RAW Image
+.GPR GoPro RAW Image
+.MFW Mamiya Camera Raw File
+.FFF Hasselblad RAW Image
+.KDC Kodak Photo-Enhancer File
+.MRW Minolta Raw Image File
+.J6I Ricoh Camera Image File
+.RWL Leica RAW Image
+.X3F
+SIGMA X3F Camera RAW File
+.PEF
+Pentax Electronic File
+.IIQ
+Phase One RAW Image
+.CXI
+FMAT RAW Image
+.NKSC
+Nikon Capture NX-D Sidecar File
+.MDC  
+
+xlsx, xls, xlsm, 
+
+apk
+exe
+
+
+cur - cursor
+ico - icons
+
+
+scss, css, js, jss, rjs, html, rhtml, psp, 
+
+
+
+

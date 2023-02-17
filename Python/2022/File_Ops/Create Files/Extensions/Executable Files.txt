@@ -1,0 +1,1 @@
+['APK', 'CMD', 'IPA', 'EXE', 'BAT', 'APP', 'COM', 'COMMAND']
